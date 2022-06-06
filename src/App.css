@@ -1,0 +1,26 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    min-height:100vh ;
+    min-width: 100vw;
+    background-color: #0E1924;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    align-self:stretch;
+}
+
+.row{
+    justify-content: center;
+}
+
+
