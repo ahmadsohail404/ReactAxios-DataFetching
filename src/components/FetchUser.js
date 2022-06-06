@@ -34,7 +34,7 @@ const FetchUser = () => {
                     <div className="col-4 ">
                         <div className="card" >
                             <div className="card-body">
-                                <img src={user.pictureUrl} className="card-img-top my-2" />
+                                <img src={user.pictureUrl} className="card-img-top my-2" alt="" />
                                 <h5 className="card-title">{user.name}</h5>
                                 <p className="card-text">{user.college}</p>
                             </div>
