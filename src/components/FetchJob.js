@@ -4,7 +4,7 @@ import axios from "axios";
 const FetchJob = () => {
   const [job, setJob] = useState([]);
 
-  const url = "http://refertest.pythonanywhere.com/job/openings";
+  const url = "https://refertest.pythonanywhere.com/job/openings";
 
   const fetchJob = async () => {
     try {

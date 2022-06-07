@@ -4,7 +4,7 @@ import axios from "axios";
 const FetchUser = () => {
     const [user, setUser] = useState([]);
 
-    const url = "http://refertest.pythonanywhere.com/user/data"
+    const url = "https://refertest.pythonanywhere.com/user/data"
 
     const fetchUser = async () => {
         try {
