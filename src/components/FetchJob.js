@@ -31,7 +31,7 @@ const FetchJob = () => {
         <div className="row">
           {job.map((value) => {
             return (
-              <div className="col-4" key={value.id} >
+              <div className="col-5 my-3" key={value.id} >
                 <div className="card" >
                   <div className="card-body" >
                     <h5 className="card-title">{`Company Name: ${value.company}`}</h5>
