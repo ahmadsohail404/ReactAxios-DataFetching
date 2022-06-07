@@ -9,7 +9,7 @@ const FetchUser = () => {
     const fetchUser = async () => {
         try {
             const response = await axios.get(url)
-            console.log(response);
+            // console.log(response);
             setUser(response.data.data)
         }
         catch (error) {
