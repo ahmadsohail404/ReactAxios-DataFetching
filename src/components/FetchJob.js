@@ -19,7 +19,7 @@ const FetchJob = () => {
     <>
       <div className="container my-3">
         <div className="row">
-          <div className="col-3">
+          <div className="col-4">
             <button className="btn btn-primary" onClick={fetchJob}>
               Fetch Jobs &rarr;
             </button>
@@ -31,7 +31,7 @@ const FetchJob = () => {
         <div className="row">
           {job.map((value) => {
             return (
-              <div className="col-3" key={value.id} >
+              <div className="col-4" key={value.id} >
                 <div className="card" >
                   <div className="card-body" >
                     <h5 className="card-title">{`Company Name: ${value.company}`}</h5>
