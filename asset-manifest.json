@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.51eead70.css",
-    "main.js": "./static/js/main.12abe5b7.js",
-    "static/js/787.e282a5d0.chunk.js": "./static/js/787.e282a5d0.chunk.js",
-    "index.html": "./index.html",
-    "main.51eead70.css.map": "./static/css/main.51eead70.css.map",
-    "main.12abe5b7.js.map": "./static/js/main.12abe5b7.js.map",
-    "787.e282a5d0.chunk.js.map": "./static/js/787.e282a5d0.chunk.js.map"
+    "main.css": "/ReactAxios-DataFetching/static/css/main.51eead70.css",
+    "main.js": "/ReactAxios-DataFetching/static/js/main.72972df2.js",
+    "static/js/787.e282a5d0.chunk.js": "/ReactAxios-DataFetching/static/js/787.e282a5d0.chunk.js",
+    "index.html": "/ReactAxios-DataFetching/index.html",
+    "main.51eead70.css.map": "/ReactAxios-DataFetching/static/css/main.51eead70.css.map",
+    "main.72972df2.js.map": "/ReactAxios-DataFetching/static/js/main.72972df2.js.map",
+    "787.e282a5d0.chunk.js.map": "/ReactAxios-DataFetching/static/js/787.e282a5d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51eead70.css",
-    "static/js/main.12abe5b7.js"
+    "static/js/main.72972df2.js"
   ]
 }
