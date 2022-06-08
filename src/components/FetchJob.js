@@ -20,9 +20,14 @@ const FetchJob = () => {
       <div className="container my-3">
         <div className="row">
           <div className="col-4">
-            <button className="btn btn-primary" onClick={fetchJob}>
-              Fetch Jobs &rarr;
-            </button>
+            <div
+              onClick={fetchJob}
+              className="button1">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </div>
       </div>

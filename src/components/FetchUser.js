@@ -23,12 +23,17 @@ const FetchUser = () => {
             <div className="container my-3" key={user.id}>
                 <div className="row">
                     <div className="col-3">
-                        <button className="btn btn-primary" onClick={() => {
-                            fetchUser();
-                            isClicked(true);
-                        }}>
-                            Fetch User Details &rarr;
-                        </button>
+                        <div
+                            onClick={() => {
+                                fetchUser();
+                                isClicked(true);
+                            }}
+                            className="button2">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
             </div>
